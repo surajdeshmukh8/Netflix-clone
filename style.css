@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.section-1 {
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/e3e9c31f-aa15-4a8f-8059-04f01e6b8629/web/IN-en-20250113-TRIFECTA-perspective_febfa442-23d9-45f3-937e-72f8b971f7a9_large.jpg);
+    background-position: center center;
+    height: 100vh;
+    /*height: 40rem;*/
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.box {
+    height: 100vh;
+    /*height: 40rem;*/
+    width: 100%;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.head-grid {
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head-grid img {
+    width: 148px;
+}
+
+.head-grid button {
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.btn button {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.English {
+    padding: 0 5px;
+}
+
+.btn-t button {
+    background-color: rgba(240, 248, 255, 0);
+    border: 0.75px solid rgb(68 68 63 / 69%);
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.btn-r button {
+    background-color: red;
+    border: 0.75px solid red;
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-t img {
+    width: 12px;
+}
+
+.front-page {
+    font-family: "Poppins", serif;
+    z-index: 10;
+    color: white;
+    width: 80%;
+    justify-items: center;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 56px;
+}
+
+.normal {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.normal-thin {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px;
+}
+
+.a10 {
+    width: 50vw;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0.75px solid rgb(68 68 63 / 69%);
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 12px;
+}
+
+.a11 {
+    background-color: red;
+    border: 0.75px solid red;
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: rgba(255, 255, 255, 0.896);
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.a123 {
+    align-items: center;
+}
+
+.section-2 {
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+}
+
+.w80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.trending {
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+.s1 {
+    background-color: rgba(240, 248, 255, 0);
+    border: 0.75px solid rgb(68 68 63 / 69%);
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: white;
+    font-family: "Poppins", serif;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-flex;
+    margin-bottom: 1%;
+}
+
+.scroll-img {
+    display: inline-flex;
+    gap: 3.75%;
+    flex-direction: row;
+    padding: 1%;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1%;
+    width: 100%;
+}
+
+.moives-name img {
+    border-radius: 8px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.scroll-img::-webkit-scrollbar {
+    display: none;
+}
+
+.moives-name img:hover {
+    transform: scale(1.1);
+}
+
+.moives-name {
+    position: relative;
+    display: inline-block;
+}
+
+.moives-name img {
+    border-radius: 8px;
+    /* width: 150px;
+    height: 200px;*/
+}
+
+.number {
+    left: -29px;
+    font-size: 28px;
+    bottom: 25px;
+    position: absolute;
+    background-color: rgba(134, 130, 130, 0);
+    color: rgb(229, 225, 225);
+    font-family: "Poppins", serif;
+    font-size: 85px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.moives-name div:hover {
+    transform: scale(1.1);
+}
+
+.more {
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 12%;
+    margin-bottom: 3%;
+}
+
+.section-3 {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*
+.sq-temp {
+    border-color: bisque;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", serif;
+}
+
+.temp {
+    padding: 1%;
+    margin: 0 1%;
+    border-radius: 8px;
+    background-color: rgb(27 3 46);
+}
+
+.t1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.t2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}*/
+
+.sq-temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 16px;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.temp {
+    position: relative;
+    /* Enable absolute positioning for child elements */
+    flex: 1;
+    padding: 16px;
+    margin: 0;
+    border-radius: 8px;
+    background-color: rgb(27, 3, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.t1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.t2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 100px;
+}
+
+.temp svg {
+    position: absolute;
+    /* Place the SVG absolutely within the container */
+    bottom: 16px;
+    /* Space from the bottom edge */
+    right: 16px;
+    /* Space from the right edge */
+}
+
+.section-4 {
+    background-color: rgb(0, 0, 0);
+}
+
+.Q {
+    color: aliceblue;
+}
+
+
+/*
+.que {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: rgba(77, 73, 68, 0.804);
+    margin: 12px;
+    padding: 1.5rem;
+}
+
+.que svg {
+    align-content: center
+}
+
+;*/
+
+.que {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: rgb(45, 45, 45);
+    margin: 12px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.que:hover {
+    background-color: rgb(70, 66, 66);
+    ;
+}
+
+.que svg {
+    flex-shrink: 0;
+}
+
+.ready {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+}
+
+.front-page1 {
+    font-family: "Poppins", serif;
+    z-index: 10;
+    color: white;
+    justify-items: center;
+}
+
+.call {
+    color: aqua;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.section-5 {
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins", serif;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.grid-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link a {
+    padding: 2%;
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.w60 {
+    width: 60%;
+    margin: auto;
+}
+
+.section-6 {
+    padding: 4%;
+}
+
+.netflixin {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 2% 0;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+    .bold {
+        padding-top: 20px;
+        font-weight: 800;
+        font-size: 36px;
+    }
+    .a11 {
+        background-color: red;
+        border: 0.75px solid red;
+        border-radius: 3px;
+        padding: 6px 12px;
+        color: rgba(255, 255, 255, 0.896);
+        font-family: "Poppins", serif;
+        font-size: 16px;
+        font-weight: 500;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .sq-temp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 16px;
+        color: white;
+        font-family: "Poppins", serif;
+    }
+    .moives-name img {
+        border-radius: 8px;
+        /* width: 150px;
+         height: 200px;*/
+        margin: 16px;
+    }
+    .number {
+        left: -10px;
+    }
+    .w80 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .a10 {
+        width: 60vw;
+        background-color: rgba(240, 248, 255, 0);
+        border: 0.75px solid rgb(68 68 63 / 69%);
+        border-radius: 3px;
+        padding: 6px 12px;
+        color: white;
+        font-family: "Poppins", serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+        padding: 12px;
+    }
+    .que {
+        font-family: "Poppins", serif;
+        font-size: 18px;
+        font-weight: 400;
+        background-color: rgb(45, 45, 45);
+        margin: 12px;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .grid-1 {
+        flex: 1 1 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .scroll-img img {
+        width: 105px;
+    }
+}
