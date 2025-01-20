@@ -272,34 +272,6 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-
-/*
-.sq-temp {
-    border-color: bisque;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    font-family: "Poppins", serif;
-}
-
-.temp {
-    padding: 1%;
-    margin: 0 1%;
-    border-radius: 8px;
-    background-color: rgb(27 3 46);
-}
-
-.t1 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.t2 {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
-}*/
-
 .sq-temp {
     display: flex;
     flex-direction: row;
@@ -353,23 +325,6 @@ body {
 .Q {
     color: aliceblue;
 }
-
-
-/*
-.que {
-    font-family: "Poppins", serif;
-    font-size: 24px;
-    font-weight: 400;
-    background-color: rgba(77, 73, 68, 0.804);
-    margin: 12px;
-    padding: 1.5rem;
-}
-
-.que svg {
-    align-content: center
-}
-
-;*/
 
 .que {
     font-family: "Poppins", serif;
